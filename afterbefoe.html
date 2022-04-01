@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.main{
+    background-color: aqua;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+.child{
+    background-color: pink;
+    height: 30vh;
+    width: 20%;
+    
+}
+.child   h1:before{
+    background-color: brown;
+    height: 10vh;
+    width: 20%;
+position: absolute;
+transition: all 2s linear;
+
+}
+.child h1:hover::before{
+    content: "";
+position: absolute;
+height: 1vh;
+width: 50
+
+
+
+}
+.child   h1:after{
+    background-color: brown;
+    height: 10vh;
+    width: 20%;
+position: absolute;
+transition: all 2s linear;
+
+}
+.child h1:hover::after{
+    content: "";
+position: absolute;
+height: 1vh;
+width: 50
+
+
+
+}
+.child   h1::before{
+    background-color: brown;
+    height: 10vh;
+    width: 20%;
+position: absolute;
+bottom: 0;
+top: 10%;
+transition: all 2s linear;
+
+}
+.child h1:hover::before{
+    content: "";
+position: absolute;
+height: 1vh;
+width: 50
+t
+
+
+}
+
+
+.child1{
+    background-color: blue;
+    height: 60vh;
+    width: 80%;
+
+}
+
+</style>
+<body>
+
+    <div class="main">
+
+<div class="child" >
+<h1>home</h1>
+</div>
+
+<div class="child1"></div>
+    </div>
+</body>
+</html>

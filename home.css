@@ -1,0 +1,40 @@
+/* <!-- men and women home --> */
+
+.home{
+
+background-color: aqua;
+height: 90vh;
+width: 1340px;
+display: flex;
+justify-content: center;
+}
+.men{
+background-image: url(image/men.jpg);
+background-position: center;
+background-size: cover ;
+
+background-color:violet ;
+height: 70vh;
+
+
+width: 45%;
+margin: 10px;
+padding: 20px;
+padding-top: 20%;
+}
+
+.women{
+    background-image: url(image/women.jpg);
+    background-position: center;
+    background-size: cover ;
+    
+    background-color:violet ;
+    height: 70vh;
+    
+    
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 20%;
+        
+}
