@@ -1,0 +1,216 @@
+/* nav */
+.first{
+    background-color: whitesmoke;
+    height: 7vh;
+    /* width: 100%; */
+    display: flex;
+    /* margin-top: 100px; */
+    }
+    .secondnav{
+        background-color: white;
+        height: 9vh;
+        width: 30%;
+    margin-top: -20px;
+    /* margin-top: -1px; */
+    font-size: 16px;
+    }
+    .secondnav h4{
+    
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .thirdnav{
+        background-color:white;
+        height: 9vh;
+        width: 70%;
+        margin-top: -20px;
+    
+    }
+    .thirdnav ul{
+    /* text-decoration: none; */
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    /* position: relative; */
+    }
+    
+    
+    .thirdnav li{
+        margin: 10px;
+        padding: 10px;
+        /* position: relative; */
+        }
+        .thirdnav a{ 
+            text-decoration: none;
+    
+        }
+        .thirdnav  li ::after{
+            content:"" ;
+            position: absolute;
+            display: block;
+            height: 2px;
+            width: 60px;
+            margin: auto;
+            background-color: transparent;
+            transition: 0.5s ;
+            margin-left: 20px;
+            
+                }
+                
+                .thirdnav  li  :hover:after{
+            background-color:red;
+            width: 50px;
+                }
+            
+    
+    
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* newnav */
+    .newnav{
+    background-color: whitesmoke;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    }
+              .newnav1{
+                  background-color: white;
+                  height: 11vh;
+                  width: 30%;
+                  /* padding: 10px; */
+              } 
+    
+              .newnav2{
+                background-color: white;
+                height: 11vh;
+                width:70%;
+                /* border: 2px solid red; */
+            } 
+    
+            .newnav2 select{
+                padding: 10px;
+                bottom: 0;
+                margin-left: 50px;
+                margin-top: 20px;
+                 width: 130px;
+                border: 2px solid red;
+                border-right: none;
+                
+    
+    
+            }
+    
+            .newnav2 option{
+    font-size: 15px;
+    height: 3vh;
+    
+    
+            }
+    
+            .newnav2 input{
+                padding: 10px;
+                bottom: 0;
+            margin-right: 10%;
+                /* margin-left: 100px; */
+                margin-top: 20px;
+    
+                width: 310px;
+                border: 2px solid red;
+    
+            }
+            
+        
+            
+            .newnav3{
+                background-color:white;
+                height: 11vh;
+                width: 70%;
+            } 
+            .newnav3 ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: left;
+    margin-left: 110px;
+    margin-top: 10px;        
+    }
+    
+    .newnav3 li{
+    padding: 10px;
+    margin: 10px;
+    }
+    .newnav3 i{
+    
+        font-size: 18px;
+    }
+    
+
+
+
+    
+
+    /* products */
+    .products{
+        background-color: transparent;
+    height:70vh;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    }
+
+    .product1{
+
+        background-color: whitesmoke;
+        height: 40vh;
+        width: 25%;
+        margin: 10px;
+    }
+    .product2{
+
+        background-color: whitesmoke;
+        height: 40vh;
+        width: 25%;
+        margin: 10px;
+    }.product3{
+
+        background-color: whitesmoke;
+        height: 40vh;
+        width: 25%;
+        margin: 10px;
+    }.product4{
+
+        background-color: whitesmoke;
+        height: 40vh;
+        width: 25%;
+        margin: 10px;
+    }
+    .product1 img{
+        width: 100%;
+        
+            }
+            .product2 img{
+                width: 100%;
+                height: 40vh;
+                
+                    }
+                    .product3 img{
+                        width: 100%;
+                        
+                            }
+                            .product4 img{
+                                width: 100%;
+                                
+                                    }
+                                                                                    
