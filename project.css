@@ -357,7 +357,29 @@
     background-color: aqua;
     height: 90vh;
     width: 100%;
-    background-image: url(image);
+    margin-top: 5%;
+}
+
+.campusimg {
+    background-image: url(image/project/main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    /* opacity: 80%; */
+}
+
+.campuscontant {
+    color: white;
+    /* pos ition: absolute; */
+    margin-top: -45%;
+    margin-left: 10%;
+    /* opacity: 100%; */
+    font-size: 20px;
+}
+
+.campuscontant p {
+    color: white;
 }
 
 
@@ -369,7 +391,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .course img {
@@ -426,7 +448,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 3%;
 }
 
 .course1 img {
