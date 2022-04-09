@@ -164,11 +164,11 @@
 .frontimg {
     height: 90vh;
     width: 100%;
-    background-color: aqua;
+    background-color: transparent;
 }
 
 .img {
-    background-color: bisque;
+    background-color: transparent;
     height: 90vh;
     width: 100%;
     background-position: center;
@@ -354,7 +354,7 @@
 /* campus details */
 
 .campus {
-    background-color: aqua;
+    background-color: transparent;
     height: 90vh;
     width: 100%;
     margin-top: 5%;
@@ -546,4 +546,157 @@
     background-color: blue;
     height: 90vh;
     width: 100%;
+}
+
+
+/* student */
+
+.student {
+    background-color: royalblue;
+    width: 100%;
+    height: 90vh;
+}
+
+
+/* blogs */
+
+.blogs {
+    background-color: transparent;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.blogs i {
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -10%;
+    color: black;
+}
+
+s .blogs1 {
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 30%;
+    margin: 10px;
+}
+
+.blogs1 img {
+    height: 50vh;
+    width: 100%;
+}
+
+.blogs2 {
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 30%;
+    margin: 10px;
+}
+
+.blogs2 img {
+    height: 50vh;
+    width: 100%;
+}
+
+.blogs3 {
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 30%;
+    margin: 10px;
+}
+
+.blogs3 img {
+    height: 50vh;
+    width: 100%;
+}
+
+
+/* <!-- fotter --> */
+
+.oder {
+    background-color: blue;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.oder1 {
+    background-color: black;
+    height: 50vh;
+    width: 25%;
+}
+
+.oder2 {
+    background-color: black;
+    height: 50vh;
+    width: 25%;
+}
+
+.oder3 {
+    background-color: black;
+    height: 50vh;
+    width: 25%;
+}
+
+.oder4 {
+    background-color: black;
+    height: 50vh;
+    width: 25%;
+}
+
+.oder1 ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+    margin-right: 60px;
+    font-size: 15px;
+}
+
+.oder1 li {
+    padding: 7px;
+    margin: 5px;
+}
+
+.oder2 ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+    margin-right: 60px;
+    font-size: 15px;
+}
+
+.oder2 li {
+    padding: 7px;
+    margin: 5px;
+}
+
+.oder3 ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+    margin-right: 60px;
+    font-size: 15px;
+}
+
+.oder3 li {
+    padding: 7px;
+    margin: 5px;
+}
+
+.oder4 ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+    margin-right: 60px;
+    font-size: 15px;
+    display: flex;
+}
+
+.oder4 li {
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
 }
