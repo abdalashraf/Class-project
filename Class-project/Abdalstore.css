@@ -1,0 +1,426 @@
+/* nav */
+.first{
+background-color: whitesmoke;
+height: 7vh;
+/* width: 100%; */
+display: flex;
+/* margin-top: 100px; */
+}
+.secondnav{
+    background-color: white;
+    height: 9vh;
+    width: 30%;
+margin-top: -20px;
+/* margin-top: -1px; */
+font-size: 16px;
+}
+.secondnav h4{
+
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.thirdnav{
+    background-color:white;
+    height: 9vh;
+    width: 70%;
+    margin-top: -20px;
+
+}
+.thirdnav ul{
+/* text-decoration: none; */
+display: flex;
+list-style: none;
+justify-content: right;
+/* position: relative; */
+}
+
+
+.thirdnav li{
+    margin: 10px;
+    padding: 10px;
+    /* position: relative; */
+    }
+    .thirdnav a{ 
+        text-decoration: none;
+
+    }
+    .thirdnav  li ::after{
+        content:"" ;
+        position: absolute;
+        display: block;
+        height: 2px;
+        width: 60px;
+        margin: auto;
+        background-color: transparent;
+        transition: 0.5s ;
+        margin-left: 20px;
+        
+            }
+            
+            .thirdnav  li  :hover:after{
+        background-color:red;
+        width: 50px;
+            }
+ 
+            @media screen and (max-width: 700px){ 
+
+            .thirdnav{
+                background-color:blue;
+                height: 9vh;
+                width: 70%;
+                margin-top: -20px;
+                flex-direction: column;
+            
+ 
+            }
+            .thirdnav ul:{
+                /* text-decoration: none; */
+            flex-direction: column;
+                list-style: none;
+                justify-content: right;
+                /* position: relative; */
+                }
+                .thirdnav ul:hover{
+                    /* text-decoration: none; */
+                    /* display: flex; */
+                    list-style: none;
+                    justify-content: right;
+                    /* position: relative; */
+                    flex-direction: column;
+            
+                }
+                        
+            
+            .thirdnav li{
+                margin: 10px;
+                padding: 10px;
+                /* position: relative; */
+                }
+                .thirdnav a{ 
+                    text-decoration: none;
+            
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+/* newnav */
+.newnav{
+background-color: whitesmoke;
+height: 12vh;
+width: 100%;
+display: flex;
+}
+          .newnav1{
+              background-color: white;
+              height: 11vh;
+              width: 30%;
+              /* padding: 10px; */
+          } 
+
+          .newnav2{
+            background-color: white;
+            height: 11vh;
+            width:70%;
+            /* border: 2px solid red; */
+        } 
+
+        .newnav2 select{
+            padding: 10px;
+            bottom: 0;
+            margin-left: 50px;
+            margin-top: 20px;
+             width: 130px;
+            border: 2px solid red;
+            border-right: none;
+            
+
+
+        }
+
+        .newnav2 option{
+font-size: 15px;
+height: 3vh;
+
+
+        }
+
+        .newnav2 input{
+            padding: 10px;
+            bottom: 0;
+        margin-right: 10%;
+            /* margin-left: 100px; */
+            margin-top: 20px;
+
+            width: 310px;
+            border: 2px solid red;
+
+        }
+        
+    
+        
+        .newnav3{
+            background-color:white;
+            height: 11vh;
+            width: 70%;
+        } 
+        .newnav3 ul{
+display: flex;
+list-style: none;
+text-align: center;
+justify-content: left;
+margin-left: 110px;
+margin-top: 10px;        
+}
+
+.newnav3 li{
+padding: 10px;
+margin: 10px;
+}
+.newnav3 i{
+
+    font-size: 18px;
+}
+
+
+  /* browser */
+  .browser{
+    background-color: aqua;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+                }
+                .brower1{
+                    background-color:whitesmoke;
+                    height: 8vh;
+                    width: 30%;
+                }
+                
+                .brower1 select{
+height: 6vh;
+width: 70%;
+text-align: center;
+margin-top: 12px;
+margin-left: 20px;
+font-size: 20px;
+border: none;
+background-color:whitesmoke;
+
+                }
+                .brower1 option{
+
+                    text-decoration: dotted;
+                    background-color: transparent;
+                    padding: 10px;
+                    margin: 10px;
+                    margin-top: 100px;
+                    list-style: cross-fade(1.43);
+                    transition: all 2s;
+
+                }
+                  
+                .brower2{
+                    background-color:whitesmoke;
+
+                    height: 8vh;
+                    width: 40%;
+                } 
+                .brower2 ul{
+display: flex;
+list-style:  none;
+text-align: center;
+justify-content: center;
+margin-top: 2px;
+
+                }
+                .brower2 li{
+                    padding: 10px;
+                    margin: 10px;
+                    font-size: 20px;
+                } 
+                .brower2 a{
+text-decoration: none;
+
+                }
+                .brower3{
+                    background-color:whitesmoke;
+                    height: 8vh;
+                    width: 30%;
+                }  
+                            
+                
+
+
+                /* catagorie */
+                .catagories{
+background-color: transparent;
+width: 100%;
+height: 60vh;
+display: flex;
+justify-content: center;
+                }
+                .men{
+
+                    background-color: blue;
+                    width: 40%;
+                    height: 60vh;
+            padding: 10%;
+             /* margin: 20px; */
+             margin-left: 10%;
+                }
+                .men img{
+                    width: 40%;
+                    height: 60vh;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .women{
+margin: 20px;
+                    background-color: transparent;
+                    width: 40%;
+                    height: 60vh;
+transition: 2s;
+                }
+
+
+                    .women img{
+                        width: 100%;
+                        height: 60vh;
+                        background-position: center;
+                        background-size: cover;
+                }
+                .kid{
+                    /* margin: 20px; */
+                                        background-color: transparent;
+                                        width: 40%;
+                                        height: 60vh;
+                    transition: 2s;
+                                    }
+                    
+                    
+                                        .kid img{
+                                            width: 100%;
+                                            height: 60vh;
+                                            background-position: center;
+                                            background-size: cover;
+                                    }
+                             
+                
+
+/* men sell */
+
+.men{
+
+    background-color: white;
+    width: 100%;
+    height: 50vh;
+}
+.men1{
+    margin: 10px;
+
+    background-color: aqua;
+height: 40vh;
+height: 30vh;
+}
+.men2{
+    margin: 10px;
+
+    background-color: aqua;
+height: 40vh;
+height: 30vh;
+}
+    .men3{
+        margin: 10px;
+
+        background-color: aqua;
+height: 40vh;
+height: 30vh;
+}
+.men4{
+    margin: 10px;
+    background-color: aqua;
+height: 40vh;
+height: 30vh;
+}
+
+
+
+
+/* nav
+.nav{
+    background-color: whitesmoke;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+    .nav1{
+    
+        /* background-color:white; */
+        height: 5vh;
+        width: 25%;
+        margin:5px ;
+        padding: 10px;
+        
+        
+        }
+        /* .nav2{ */
+            margin:5px ;
+            padding: 10px;
+           
+            background-color: white;
+            height: 5vh;
+            width: 40%;
+            
+            }
+            
+        /* .nav2 ul{ */
+    list-style: none;
+            display: flex;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
+        }    
+            
+            /* .nav2 li{ */
+    
+    padding: 10px;
+    margin: 10px;
+            }
+            
+    
+            /* .nav3 ul{ */
+                list-style: none;
+                        display: flex;
+                text-align: right;
+                margin-top: -10px;
+                font-size: 20px;
+                justify-content: right;
+    color: white;
+            }    
+                        
+                        /* .nav3 li{ */
+                color: black;
+                padding: 10px;
+                margin: 10px;
+                        }
+                    
+            
+            
+            
+            /* .nav3{ */
+                margin:5px ;
+                padding: 10px;
+               
+                background-color: white;
+                height: 5vh;
+                width: 28%;
+                
+                /* } */ */
