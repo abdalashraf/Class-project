@@ -516,6 +516,8 @@
     height: 30vh;
     width: 20%;
     margin: 20px;
+    margin-top: 10%;
+    transform: rotate(490deg);
 }
 
 .membe {
@@ -523,6 +525,8 @@
     height: 30vh;
     width: 20%;
     margin: 20px;
+    margin-top: 10%;
+    transform: rotate(490deg);
 }
 
 .memb {
@@ -530,6 +534,8 @@
     height: 30vh;
     width: 20%;
     margin: 20px;
+    margin-top: 10%;
+    transform: rotate(490deg);
 }
 
 .mem {
@@ -537,15 +543,8 @@
     height: 30vh;
     width: 20%;
     margin: 20px;
-}
-
-
-/* interveiw */
-
-.interveiw {
-    background-color: blue;
-    height: 90vh;
-    width: 100%;
+    margin-top: 10%;
+    transform: rotate(490deg);
 }
 
 
